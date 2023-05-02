@@ -31,18 +31,20 @@ class App extends Component {
 
     return (
       <div className="App">
-        <nav className="header-nav-wrapper">
-          <a href="#about-me">About Me</a>
-          <a href="#experience">Experience</a>
-          <a href="#project">Project</a>
-        </nav>
-        <div class="name-container">
-          <h1>Hello, this is Amy Liu</h1>
-          <Typical
-            steps={['Senior', 1000, 'Senior Frontend Engineer', 700]}
-            loop={Infinity}
-            wrapper="p"
-          />
+        <div className="home-container">
+          <nav className="header-nav-wrapper">
+            <a href="#about-me">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="#project">Project</a>
+          </nav>
+          <div class="name-container">
+            <h1>Hello, this is Amy Liu</h1>
+            <Typical
+              steps={['Senior', 1000, 'Senior Frontend Engineer', 700]}
+              loop={Infinity}
+              wrapper="p"
+            />
+          </div>
         </div>
         <AboutMe />
         <Experience />
