@@ -5,7 +5,7 @@ import './Project.css';
 function Project() {
   return (
     <div id="project" className="project-container">
-      <h3>Project</h3>
+      <h3>Projects</h3>
         <Card>
           <Card.Content>
             <Card.Header>Voya Enrollment</Card.Header>

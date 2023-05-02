@@ -33,9 +33,9 @@ class App extends Component {
       <div className="App">
         <div className="home-container">
           <nav className="header-nav-wrapper">
-            <a href="#about-me">About Me</a>
-            <a href="#experience">Experience</a>
-            <a href="#project">Project</a>
+            <a href="#about-me">{'About Me'.toUpperCase()}</a>
+            <a href="#experience">{'Experience'.toUpperCase()}</a>
+            <a href="#project">{'Projects'.toUpperCase()}</a>
           </nav>
           <div class="name-container">
             <h1>Hello, this is Amy Liu</h1>
