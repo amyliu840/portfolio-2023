@@ -31,7 +31,6 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className="home-container">
           <nav className="header-nav-wrapper">
             <a href="#about-me">{'About Me'.toUpperCase()}</a>
             <a href="#experience">{'Experience'.toUpperCase()}</a>
@@ -45,7 +44,6 @@ class App extends Component {
               wrapper="p"
             />
           </div>
-        </div>
         <AboutMe />
         <Experience />
         <Project />
