@@ -3,7 +3,7 @@ import AboutMe from './About-me';
 import Experience from './Experience';
 import Project from './Project';
 import './App.css';
-
+import Typical from 'react-typical'
 
 class App extends Component {
 
@@ -23,8 +23,8 @@ class App extends Component {
   ListeningStateChangedEvent = ({ activeItem }) => {
     const activeElement = document.querySelector(`#${activeItem}`);
     activeElement.animate({ scrollTop: activeElement.offsetTop }, 200);
-  } 
-  
+  }
+
 
   render() {
     const { activeItem } = this.state;
@@ -35,10 +35,14 @@ class App extends Component {
           <a href="#about-me">About Me</a>
           <a href="#experience">Experience</a>
           <a href="#project">Project</a>
-        </nav>          
+        </nav>
         <div class="name-container">
           <h1>Hello, this is Amy Liu</h1>
-          <h3>Senior Frontend Engineer</h3>
+          <Typical
+            steps={['Senior', 1000, 'Senior Frontend Engineer', 700]}
+            loop={Infinity}
+            wrapper="p"
+          />
         </div>
         <AboutMe />
         <Experience />
