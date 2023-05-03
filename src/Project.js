@@ -5,31 +5,31 @@ import './Project.css';
 function Project() {
   return (
     <div id="project" className="project-container">
-      <h3>Projects</h3>
-        <Card>
-          <Card.Content>
-            <Card.Header>Voya Enrollment</Card.Header>
-            <Card.Description>Financial Enrollment Tool</Card.Description>
-            <List bulleted>
-              <List.Item>
-                <a href="https://enroll.voya.com/" 
-                target="_blank">Voya Enrollment Tool</a>
-              </List.Item>
-            </List>
-          </Card.Content>
-        </Card>
-        <Card>
-          <Card.Content>
-            <Card.Header>Car Dealer App</Card.Header>
-            <Card.Description>An application to display dealer's cars</Card.Description>
-            <List bulleted>
-              <List.Item>
-                <a href="https://github.com/amyliu840/car-dealer-app" 
-                target="_blank">Project Github Link</a>
-              </List.Item>
-            </List>
-          </Card.Content>
-        </Card>
+      <h2>Projects</h2>
+      <Card>
+        <Card.Content>
+          <Card.Header>Voya Enrollment</Card.Header>
+          <Card.Description>Financial Enrollment Tool</Card.Description>
+          <List bulleted>
+            <List.Item>
+              <a href="https://enroll.voya.com/"
+                target="_blank" rel="noreferrer">Voya Enrollment Tool</a>
+            </List.Item>
+          </List>
+        </Card.Content>
+      </Card>
+      <br />
+      <Card>
+        <Card.Content>
+          <Card.Header>Car Dealer App</Card.Header>
+          <Card.Description>An application to display dealer's cars</Card.Description>
+          <List bulleted>
+            <List.Item>
+              <a href="https://github.com/amyliu840/car-dealer-app" target="_blank" rel="noreferrer">Project Github Link</a>
+            </List.Item>
+          </List>
+        </Card.Content>
+      </Card>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import './About-me.css';
 function AboutMe() {
   return (
     <div id="about-me" class="about-me-container">
-      <h3>About Me</h3>
+      <h2>About Me</h2>
       <ul>
         <li>Diverse experience in software development (web and mobile applications)</li>
         <li>Expertise in user interaction design; user experience oriented</li>
