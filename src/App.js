@@ -25,28 +25,27 @@ class App extends Component {
     activeElement.animate({ scrollTop: activeElement.offsetTop }, 200);
   }
 
-
   render() {
-    const { activeItem } = this.state;
-
     return (
       <div className="App">
-          <nav className="header-nav-wrapper">
-            <a href="#about-me">{'About Me'.toUpperCase()}</a>
-            <a href="#experience">{'Experience'.toUpperCase()}</a>
-            <a href="#project">{'Projects'.toUpperCase()}</a>
-          </nav>
-          <div class="name-container">
-            <h1>Hello, this is Amy Liu</h1>
-            <Typical
-              steps={['Senior', 1000, 'Senior Frontend Engineer', 700]}
-              loop={Infinity}
-              wrapper="p"
-            />
-          </div>
-        <AboutMe />
-        <Experience />
-        <Project />
+        <nav className="header-nav-wrapper">
+          {['about-me', 'experience', 'project'].map(item => (
+            <a href={`#${item}`} key={item}>
+              {item.replace('-', ' ').toUpperCase()}
+            </a>
+          ))}
+        </nav>
+        <div className="name-container">
+          <h1>Hello, this is Amy Liu</h1>
+          <Typical
+            steps={['Senior', 1000, 'Senior Frontend Engineer', 700]}
+            loop={Infinity}
+            wrapper="p"
+          />
+        </div>
+          <AboutMe />
+          <Experience />
+          <Project />
         <footer>Powered By <a href="https://www.pexels.com" target="_blank">Pexels</a>, <a href="https://create-react-app.dev/" target="_blank">Creat React App</a> and <a href="https://react.semantic-ui.com/" target="_blank">Semantic UI React</a></footer>
       </div>
     );
