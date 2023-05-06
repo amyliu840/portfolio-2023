@@ -4,6 +4,9 @@ import React from 'react'
 import { description } from './Experience';
 import './Experience.css';
 
+// const cardColor = 'rgba(206, 238, 255, 0.6)'
+const cardColor = '#ceeeff99'
+
 const Experience = () => {
 
     return (
@@ -12,9 +15,9 @@ const Experience = () => {
             <VerticalTimeline animate={true}>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'lightblue', borderRadius:  "1rem"}}
-                    contentArrowStyle={{ borderRight: '7px solid lightblue' }}
-                    iconStyle={{ background: 'blue', color: '#fff' }}
+                    contentStyle={{ background: cardColor, borderRadius:  "1rem"}}
+                    contentArrowStyle={{ borderRight: '7px solid ' + cardColor }}
+                    iconStyle={{ background: '#ffc4c4', color: '#fff' }}
                     date="March 2017 - January 2019"
                 >
                     <p>Senior Frontend Engineer<br /><i>Pfizer</i></p>
@@ -27,9 +30,9 @@ const Experience = () => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="July 2016 - January 2017"
-                    contentStyle={{ background: 'lightblue', borderRadius:  "1rem"}}
-                    contentArrowStyle={{ borderRight: '7px solid lightblue' }}
-                    iconStyle={{ background: 'pink', color: '#fff' }}
+                    contentStyle={{ background: cardColor, borderRadius:  "1rem"}}
+                    contentArrowStyle={{ borderRight: '7px solid ' + cardColor }}
+                    iconStyle={{ background: '#ceeeff', color: '#fff' }}
                 >
                     <p>Senior Frontend Engineer <br /><i>Voya Financial</i></p>
                     <ul>
@@ -41,9 +44,9 @@ const Experience = () => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="June 2015 - June 2016"
-                    contentStyle={{ background: 'lightblue', borderRadius:  "1rem"}}
-                    contentArrowStyle={{ borderRight: '7px solid lightblue' }}
-                    iconStyle={{ background: 'greenyellow', color: '#fff' }}
+                    contentStyle={{ background: cardColor, borderRadius:  "1rem"}}
+                    contentArrowStyle={{ borderRight: '7px solid ' + cardColor }}
+                    iconStyle={{ background: '#e8dbff', color: '#fff' }}
                 >
                     <p>Full Stack Engineer<br /><i>Northwestern Mutual</i></p>
                     <ul>
