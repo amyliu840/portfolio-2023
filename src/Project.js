@@ -4,7 +4,7 @@ import './Project.css';
 
 function Project() {
   return (
-    <div id="project" className="project-container">
+    <section id="project" className="project-container">
       <h2>Projects</h2>
       <Card>
         <Card.Content>
@@ -30,7 +30,7 @@ function Project() {
           </List>
         </Card.Content>
       </Card>
-    </div>
+    </section>
   );
 }
 

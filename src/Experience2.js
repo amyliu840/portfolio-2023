@@ -10,7 +10,7 @@ const cardColor = '#ceeeff99'
 const Experience = () => {
 
     return (
-        <div id="experience" className="experience-container">
+        <section id="experience" className="experience-container">
             <h2>Experience</h2>
             <VerticalTimeline animate={true}>
                 <VerticalTimelineElement
@@ -56,7 +56,7 @@ const Experience = () => {
                     </ul>
                 </VerticalTimelineElement>
             </VerticalTimeline>
-        </div>)
+        </section>)
 }
 
 export default Experience;
