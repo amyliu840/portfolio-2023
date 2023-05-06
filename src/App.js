@@ -38,6 +38,13 @@ const App = () => {
     });
   }
 
+  const scrollToTop = () => {
+    window.scrollTo({ 
+      top: 0, 
+      behavior: 'smooth' 
+    });
+  }
+
     return (
       <div className="App">
         <nav className="header-nav-wrapper">
@@ -64,7 +71,11 @@ const App = () => {
         <AboutMe />
         <Experience />
         <Project />
-        <footer>Powered By <a href="https://www.pexels.com" target="_blank">Pexels</a>, <a href="https://create-react-app.dev/" target="_blank">Creat React App</a> and <a href="https://react.semantic-ui.com/" target="_blank">Semantic UI React</a></footer>
+        <footer>
+          <div className='scroll-up' onClick={scrollToTop}></div>
+          <div style={{margin: '.25rem 0'}}>Powered By <a href="https://www.pexels.com" target="_blank">Pexels</a>, <a href="https://create-react-app.dev/" target="_blank">Creat React App</a> and <a href="https://react.semantic-ui.com/" target="_blank">Semantic UI React</a></div>
+          <div>Copyright &copy; 2023 Amy Liu</div>
+          </footer>
       </div>
     );
 }
