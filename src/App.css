@@ -96,7 +96,7 @@
 }
 
 .header-nav-wrapper a:active, .header-nav-wrapper a.active {
-  color: darkblue;
+  color: var(--app-header-color);
 }
 
 .App-intro {
