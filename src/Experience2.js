@@ -5,7 +5,8 @@ import { description } from './Experience';
 import './Experience.css';
 
 // const cardColor = 'rgba(206, 238, 255, 0.6)'
-const cardColor = '#ceeeff99'
+const cardColor = 'white'
+const dotColor = '#ffc4c4'
 
 const Experience = () => {
 
@@ -17,7 +18,7 @@ const Experience = () => {
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: cardColor, borderRadius:  "1rem"}}
                     contentArrowStyle={{ borderRight: '7px solid ' + cardColor }}
-                    iconStyle={{ background: '#ffc4c4', color: '#fff' }}
+                    iconStyle={{ background: dotColor, color: '#fff' }}
                     date="March 2017 - January 2019"
                 >
                     <p>Senior Frontend Engineer<br /><i>Pfizer</i></p>
@@ -32,7 +33,7 @@ const Experience = () => {
                     date="July 2016 - January 2017"
                     contentStyle={{ background: cardColor, borderRadius:  "1rem"}}
                     contentArrowStyle={{ borderRight: '7px solid ' + cardColor }}
-                    iconStyle={{ background: '#ceeeff', color: '#fff' }}
+                    iconStyle={{ background: dotColor, color: '#fff' }}
                 >
                     <p>Senior Frontend Engineer <br /><i>Voya Financial</i></p>
                     <ul>
@@ -46,7 +47,7 @@ const Experience = () => {
                     date="June 2015 - June 2016"
                     contentStyle={{ background: cardColor, borderRadius:  "1rem"}}
                     contentArrowStyle={{ borderRight: '7px solid ' + cardColor }}
-                    iconStyle={{ background: '#e8dbff', color: '#fff' }}
+                    iconStyle={{ background: dotColor, color: '#fff' }}
                 >
                     <p>Full Stack Engineer<br /><i>Northwestern Mutual</i></p>
                     <ul>
