@@ -41,7 +41,14 @@
     "react-awesome-slider": "^4.1.0",
     "react-swipeable-views": "^0.14.0",
     "react-swipeable-views-utils": "^0.14.0",
-    "semantic-ui-react": "^2.1.4",
-    "@babel/traverse": ">=7.23.2"
+    "semantic-ui-react": "^2.1.4"
+  },
+  "overrides": {
+    "@babel/traverse": ">=7.23.2",
+    "nth-check": ">=2.0.1",
+    "postcss": ">=8.4.31",
+    "@adobe/css-tools": ">=4.3.1",
+    "semver": ">=7.5.2",
+    "tough-cookie": ">=4.1.3"
   }
 }
