@@ -26,10 +26,6 @@ const App = () => {
     };
   }, []);
 
-  const onScrollDown = () => {
-    window.scrollBy({ top: window.innerHeight, behavior: 'smooth' });
-  }
-
   const scrollToAboutMe = () => {
     const element = document.getElementById('about-me');
     window.scrollTo({
