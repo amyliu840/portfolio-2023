@@ -142,7 +142,9 @@
 
 .header-nav-wrapper a:active,
 .header-nav-wrapper a.active {
-  color: var(--app-header-color);
+  background-color: #cbede0;
+  box-shadow: 0px 19px 143px rgba(0, 0, 0, 0.5);
+  text-decoration: overline;
 }
 
 .App-intro {
