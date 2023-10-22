@@ -2,7 +2,8 @@
   "name": "portfolio-2023",
   "version": "0.1.0",
   "private": true,
-  "author": "Amy Liu",
+  "author": "Amy Liu <liuamy840@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
