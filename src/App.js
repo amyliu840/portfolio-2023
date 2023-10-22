@@ -46,9 +46,9 @@ const App = () => {
         <nav className="header-nav-wrapper">
           <div className='nav-link-container'>
             {['about-me', 'experience', 'project'].map(item => (
-              <div style={{ padding: '1rem' }}><a href={`#${item}`} key={item} className={activeSection === item ? 'active' : ''} >
+              <a href={`#${item}`} key={item} className={activeSection === item ? 'active' : ''} ><div style={{ padding: '0 1rem' }}>
                 {item.replace('-', ' ').toUpperCase()}
-              </a></div>
+              </div></a>
             ))}
           </div>
         </nav>

@@ -36,15 +36,18 @@
   use width instead of max-width to center element
   */
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3rem;
 }
 
 .header-nav-wrapper a {
-  margin: .75rem;
-  padding: .5rem;
   text-decoration: none;
   font-weight: 500;
   color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .linkedin-icon svg {
@@ -132,9 +135,9 @@
 
 .header-nav-wrapper a:hover,
 .header-nav-wrapper a:focus {
-  background-color: #c2e2de;
-  border-radius: .5rem;
-  color: darkblue;
+  background-color: var(--app-primay-color);
+  border-radius: 0.25rem;
+  box-shadow: 0px 19px 143px rgba(0, 0, 0, 0.5);
 }
 
 .header-nav-wrapper a:active,
