@@ -13,7 +13,7 @@ function Project() {
           <List bulleted>
             <List.Item>
               <a href="https://enroll.voya.com/"
-                target="_blank" rel="noreferrer">Voya Enrollment Tool</a>
+                target="_blank" rel="noopener noreferrer">Voya Enrollment Tool</a>
             </List.Item>
           </List>
         </Card.Content>
@@ -25,7 +25,7 @@ function Project() {
           <Card.Description>An application to display dealer's cars</Card.Description>
           <List bulleted>
             <List.Item>
-              <a href="https://github.com/amyliu840/car-dealer-app" target="_blank" rel="noreferrer">Project Github Link</a>
+              <a href="https://github.com/amyliu840/car-dealer-app" target="_blank" rel="noopener noreferrer">Project Github Link</a>
             </List.Item>
           </List>
         </Card.Content>
