@@ -137,7 +137,7 @@
 .header-nav-wrapper a:focus {
   background-color: var(--app-primay-color);
   border-radius: 0.25rem;
-  box-shadow: 0px 19px 143px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 19px 143px rgba(0, 0, 0, 0.3);
 }
 
 .header-nav-wrapper a:active,
