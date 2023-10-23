@@ -25,20 +25,16 @@
   box-shadow: 0px 19px 143px rgba(0, 0, 0, 0.3);
   width: 50%;
   margin: 2rem auto;
-  display: flex;
   border-radius: 2rem;
 }
 
 .nav-link-container {
-  width: var(--max-content-width);
-  /** 
-  to be consistent with vertical timeline
-  use width instead of max-width to center element
-  */
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  height: 3rem;
+  min-height: 3rem;
 }
 
 .header-nav-wrapper a {
