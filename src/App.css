@@ -56,8 +56,7 @@
 }
 
 .scroll-down {
-  position: absolute;
-  bottom: 1.5rem;
+  position: relative;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -172,4 +171,12 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.scroll-indicator-wrapper {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 2.5rem;
+  width: 100%;
 }
