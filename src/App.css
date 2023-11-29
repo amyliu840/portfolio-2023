@@ -156,7 +156,7 @@
 
 .name-container {
   height: calc(100vh - 3rem);
-  width: 100vw;
+  width: 100%;
   padding-top: 20%;
   text-align: center;
   display: flex;
