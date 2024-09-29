@@ -10,7 +10,10 @@ const App = () => {
   const [isScrollDown, setIsScrollDown] = useState(true);
 
   const chooseScrollIndicator = () => {
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 24) {
+    if (
+      window.innerHeight + window.scrollY >=
+      document.body.offsetHeight - 24
+    ) {
       setIsScrollDown(false);
     } else {
       setIsScrollDown(true);
@@ -35,11 +38,12 @@ const App = () => {
     };
   }, []);
 
-  const scrollDown = () => { // scroll to the next page
+  const scrollDown = () => {
+    // scroll to the next page
     window.scrollBy({
       top: window.innerHeight,
       behavior: "smooth",
-    })
+    });
   };
 
   const scrollToTop = () => {

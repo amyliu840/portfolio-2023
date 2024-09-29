@@ -64,7 +64,7 @@
 }
 
 .scroll-down::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 15px;
   left: 50%;
@@ -93,7 +93,7 @@
 
 .scroll-up {
   position: relative;
-  margin: .25rem 0;
+  margin: 0.25rem 0;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -101,7 +101,7 @@
 }
 
 .scroll-up::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 20px;
   left: 50%;
