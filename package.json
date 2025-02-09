@@ -4,7 +4,7 @@
   "private": true,
   "author": "Amy Liu <liuamy840@hotmail.com>",
   "license": "MIT",
-  "homepage": "https://amyliu840.github.io",
+  "homepage": "https://amyliu840.github.io/portfolio-2023",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
