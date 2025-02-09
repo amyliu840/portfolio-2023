@@ -1,0 +1,182 @@
+:root {
+  --app-primay-color: #cbede7;
+  --app-header-color: #ffc4c4;
+  --app-card-color: #ceeeff;
+  --app-warm-color: #e8dbff;
+  --app-light-color: #ffe6e8;
+  --max-content-width: 1170px;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.header-nav-wrapper {
+  position: sticky;
+  top: 0.5rem;
+  z-index: 1000;
+  background-color: var(--app-primay-color);
+  box-shadow: 0px 19px 143px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  margin: 2rem auto;
+  border-radius: 2rem;
+}
+
+.nav-link-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 3rem;
+}
+
+.header-nav-wrapper a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.linkedin-icon svg {
+  scale: 1.5;
+}
+
+.linkedin-icon:hover svg,
+.linkedin-icon:focus svg {
+  color: var(--app-header-color);
+}
+
+.scroll-down {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.scroll-down::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  margin-left: -7.5px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  transform: rotate(45deg);
+  animation: scroll-down 2s infinite;
+}
+
+@keyframes scroll-down {
+  0% {
+    top: 10px;
+  }
+
+  50% {
+    top: 25px;
+  }
+
+  100% {
+    top: 10px;
+  }
+}
+
+.scroll-up {
+  position: relative;
+  margin: 0.25rem 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.scroll-up::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  margin-left: -7.5px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  transform: rotate(-135deg);
+  animation: scroll-down 2s infinite;
+}
+
+@keyframes scroll-up {
+  0% {
+    top: 25px;
+  }
+
+  50% {
+    top: 10px;
+  }
+
+  100% {
+    top: 25px;
+  }
+}
+
+.header-nav-wrapper a:hover,
+.header-nav-wrapper a:focus {
+  background-color: var(--app-primay-color);
+  border-radius: 0.25rem;
+  box-shadow: 0px 19px 143px rgba(0, 0, 0, 0.3);
+}
+
+.header-nav-wrapper a:active,
+.header-nav-wrapper a.active {
+  text-decoration: overline;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.name-container {
+  height: calc(100vh - 3rem);
+  width: 100%;
+  padding-top: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-indicator-wrapper {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 2.5rem;
+  width: 100%;
+}

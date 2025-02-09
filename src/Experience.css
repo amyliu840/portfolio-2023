@@ -1,0 +1,12 @@
+.experience-container {
+  padding: 2em;
+}
+
+.ui.card {
+  min-width: 500px;
+}
+
+.experience-container h2 {
+  margin: 0 auto;
+  max-width: var(--max-content-width);
+}
