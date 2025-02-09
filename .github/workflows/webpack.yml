@@ -20,7 +20,7 @@ jobs:
       - name: git account setup
         run: |
           git config --global user.email "liuamy840@hotmail.com"
-          git config --global user.name "Amy Liu"
+          git config --global user.name "amyliu840"
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
