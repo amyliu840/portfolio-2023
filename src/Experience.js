@@ -58,8 +58,8 @@ const Experience = () => {
             <i>Pfizer</i>
           </p>
           <ul>
-            {description["pfizer"].map((item) => (
-              <li>{item}</li>
+            {description["pfizer"].map((item, index) => (
+              <li key={`pfizer-${index}`}>{item}</li>
             ))}
           </ul>
         </VerticalTimelineElement>
@@ -75,8 +75,8 @@ const Experience = () => {
             <i>Voya Financial</i>
           </p>
           <ul>
-            {description["voya-financial"].map((item) => (
-              <li>{item}</li>
+            {description["voya-financial"].map((item, index) => (
+              <li key={`voya-financial-${index}`}>{item}</li>
             ))}
           </ul>
         </VerticalTimelineElement>
@@ -93,8 +93,8 @@ const Experience = () => {
             <i>Northwestern Mutual</i>
           </p>
           <ul>
-            {description["northwestern-mutual"].map((item) => (
-              <li>{item}</li>
+            {description["northwestern-mutual"].map((item, index) => (
+              <li key={`northwestern-mutual-${index}`}>{item}</li>
             ))}
           </ul>
         </VerticalTimelineElement>
