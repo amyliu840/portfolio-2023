@@ -126,7 +126,7 @@ const App = () => {
             Semantic UI React
           </a>
         </div>
-        <div>Copyright &copy; 2023 Amy Liu</div>
+        <div>Copyright &copy; 2023-2025 Amy Liu</div>
       </footer>
       <div className="scroll-indicator-wrapper">
         {isScrollDown ? (
